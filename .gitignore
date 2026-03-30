@@ -37,5 +37,20 @@
 *.out
 *.app
 
+# CMake / build folders
+build/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+compile_commands.json
+Makefile
+
+# IDE / generated folders
+.vs/
+.vscode/
+
+# Local data files (keep datasets out of git by default)
+data/*.txt
+
 # debug information files
 *.dwo
